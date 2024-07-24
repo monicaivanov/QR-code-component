@@ -26,11 +26,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
+- Grid
 
 ### What I learned
 
-I learned how to use git with VS code, flexbox, and responsive design. Also how to add Google fonts.
+I learned how to use git with VS code, flexbox, grid and responsive design. Also how to add Google fonts.
 
 ### Continued development
 
@@ -38,7 +38,7 @@ I have a lot to learn and practice. This project has been my first tiny step int
 
 ### Useful resources
 
-- [CSS Trics](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This helped me understand flexbox and its a very useful resourse to comeback to anytime you need.
+- [CSS Trics](https://css-tricks.com/centering-css-complete-guide/) - This helped me understand flexbox and grid for centering. It is a very useful resourse to comeback to anytime you need. In the end I chose to center with grid - looks more clean and simple.
 
 - [Web design tutorials](https://bringyourownlaptop.com) - This is an amazing source for design tutorials, beginer level but exactly what you need to understand building small projects in a practical way.
 
