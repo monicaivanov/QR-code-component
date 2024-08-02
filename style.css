@@ -2,8 +2,8 @@
 
 html,
 body {
-  height: 100%;
-  display: grid;
+    display: grid;
+    height: 100%;
 }
 
 body {
@@ -12,27 +12,34 @@ body {
   font-family: "Outfit", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  font-size: clamp (1rem, 0.75rem+1.5vw, 2rem);
+  
 }
 
-main {
-  width: 20%;
-  background-color: white;
-  padding: 20px;
+.wrapper {
+  width: 25%;
   margin: auto;
-  box-shadow: 10px 10px 20px hsla(0, 0%, 0%, 0.103);
-  border-radius: 20px;
+  background-color: white;
+  padding: 0.7rem;
+  box-shadow: 0.625rem 0.625rem 1.25rem hsla(0, 0%, 0%, 0.103);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  border-radius: 10px;
+  max-inline-size: 100%;
+  block-size: auto;
+  border-radius: 0.625rem;
+}
+
+main {
+  padding: 0.6rem;
 }
 
 h1 {
-  font-size: 18 px;
+  font-size: 1.5rem;
   color: #1f314f;
   line-height: 120%;
   letter-spacing: 0px;
@@ -40,8 +47,8 @@ h1 {
   font-weight: 700;
 }
 
-section {
-  font-size: 12 px;
+p {
+  font-size: 1rem;
   color: #68778d;
   line-height: 150%;
   letter-spacing: 0.2px;
@@ -51,5 +58,22 @@ section {
 
 /* Mobile view */
 
-@media (max-width: 375px) {
+@media screen and (min-width:800px) and (max-width: 1200px) {
+  .wrapper {
+    width: 35%;
+  }
+  
 }
+
+@media screen and (min-width:500px) and (max-width: 800px) {
+ .wrapper {
+  width:55%;
+ }
+}
+
+@media screen and (min-width:300px) and (max-width: 500px) {
+ .wrapper {
+  width: 75%;
+ }
+}
+
